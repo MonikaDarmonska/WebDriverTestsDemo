@@ -4,7 +4,7 @@ using OpenQA.Selenium.Chrome;
 // Create new Chrome browser instance
 var driver = new ChromeDriver();
 
-// Navigate to Wikioedia
+// Navigate to Wikipedia
 driver.Url = "https://wikipedia.org";
 
 System.Console.WriteLine("CURRENT TITLE: " + driver.Title);
